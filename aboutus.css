@@ -1,0 +1,202 @@
+body{
+    background-color: wheat;
+
+}
+
+#aboutus {
+    border-radius: 10px;
+  }
+  
+  #navbar {
+    
+    display:flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    overflow: hidden;
+    background: rgb(85,85,85);
+    
+  
+      
+   }
+  
+  .navbar {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  .navbar a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #000000;
+    border-radius: 8px;
+  
+  }
+  
+  
+  .navbar a:hover {
+    box-shadow: rgb(93 24 220) 0px 10px 29px 10px;
+    border-radius: 10px;
+  }
+  
+  .active{
+    margin-right: 10px;
+  } 
+  
+  .active:hover{
+    background-color: rgb(22, 22, 22);
+  
+  }
+    
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #navbar + .content {
+    padding-top: 60px;
+  }
+
+
+#parent1{
+    margin-top: 65px;
+    gap: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 50px);
+    overflow: hidden;
+}
+
+#button {
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+#parent1 > div {
+
+ display: flex;
+ border: rgb(75, 68, 54) double;
+ border-width: 10px;
+ border-radius: 5px;
+ color: white;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ overflow: hidden;
+}
+
+.images {
+    width: 100%;
+    height:100%;
+}
+
+
+#d1{
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 1 / 2;
+    background-color: black;
+}
+
+#d2{
+    text-align: center;
+    padding: 10px;
+    grid-column: 1/ 5;
+    grid-row: 2/ 4;
+    background-color: black;
+}
+#d3{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: black;
+}
+
+#d4{
+    grid-column:2/3;
+    grid-row:4/5 ;
+    background-color: black;
+}
+
+#d5{
+    grid-column:3/4;
+    grid-row:4/5 ;
+    background-color: black;
+}
+
+#d6{
+    grid-column:4/5;
+    grid-row:4/5 ;
+    background-color: black;
+}
+
+#d7{
+    grid-column:1/2 ;
+    grid-row: 5/10 ;
+    background-color: black;
+}
+
+#d8{
+    grid-column:2/3;
+    grid-row:5/10 ;
+    background-color: black;
+}
+
+#d9{
+    grid-column:3/4;
+    grid-row: 5/10;
+    background-color: black;
+}
+
+#d10{
+
+
+    grid-column:4/5;
+    grid-row: 5/10;
+    background-color: black;
+}
+
+
+#d11{
+
+
+    grid-column: 1/5;
+    grid-row: 10/11;
+    background-color: black;
+}
+
+#d12{
+    background-color: black;
+    grid-column: 2/5;
+    grid-row: 11 / 13;
+}
+
+#d13 {
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 11 / 13;
+}
+
+
+#textreader {
+    margin-right: 60px;
+    text-decoration: underline honeydew;
+  }
+
