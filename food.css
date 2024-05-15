@@ -7,7 +7,7 @@ body {
   }
   
   #navbar {
-    
+    z-index: 10000;
     display:flex;
     justify-content: space-around;
     border-radius: 5px;
@@ -63,7 +63,7 @@ body {
   }
     
   #navbar {
-    z-index: 10000;
+
     position: fixed;
     top: 0;
     width: 100%;
